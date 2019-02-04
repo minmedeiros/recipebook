@@ -1,0 +1,21 @@
+<div class="row">
+  <div class="col-md-5">
+    <button class="btn btn-success"
+    routerLink = "new">New Recipe</button>
+    <app-recipe-list></app-recipe-list>
+  </div>
+    <div class="col-md-7">
+    <!-- <app-recipe-detail
+    *ngIf="recipeStored; else infoText"
+    [recipe]="recipeStored"></app-recipe-detail> -->
+    <ng-template #infoText>
+      <p>Please select a Recipe</p>
+    </ng-template>
+    <router-outlet></router-outlet>
+  </div>
+</div>
+<hr>
+
+<!-- <a routerLink = "/recipes/list">
+      <button class="btn btn-success">Recipe List</button>
+    </a> -->
