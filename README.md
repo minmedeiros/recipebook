@@ -1,6 +1,7 @@
-# AngularTestApp
+# Recipe Book - Angular Test App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+It had the purpose of studying and practicing Angular development from Udemy course [The Complete Guide to Angular 7](https://www.udemy.com/the-complete-guide-to-angular-2/)
 
 ## Development server
 
